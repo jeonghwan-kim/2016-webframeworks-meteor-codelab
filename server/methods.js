@@ -4,13 +4,10 @@ Meteor.methods({
     console.log('addPost start. obj:', obj);
 
     Posts.insert({
-      author: {
-        name: obj.name,
-        profileImageUrl: obj.profileImageUrl
-      },
+      author: obj.author,
       message: obj.message,
+      pageId: obj.pageId,
       createdAt: Date.now(),
-      pageId: obj.pageId
     });
   },
 

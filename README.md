@@ -58,6 +58,12 @@ Router:
 $meteor add kadira:flow-router
 ```
 
+Accounts
+
+```
+$ meteor add accounts-password            // email, passowrd authentication
+$ meteor add ian:accounts-ui-bootstrap-3  // ui for accoutns
+```
 
 
 Homework (Jun 9, 2016)
