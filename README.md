@@ -79,7 +79,7 @@ Homework (Jun 9, 2016)
 * [x] Router
 * [x] Authentication
 * [x] Gravata
-* [ ] Check login user
+* [x] Check login user
 
 
 
