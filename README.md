@@ -57,3 +57,14 @@ Router:
 ```
 $meteor add kadira:flow-router
 ```
+
+
+
+Homework (Jun 9, 2016)
+
+* [x] Router
+* [ ] Gravata
+* [ ] Authentication
+
+
+

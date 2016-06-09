@@ -1,7 +1,7 @@
 Meteor.methods({
-  addPost: function (post) {
+  addPost: function (obj) {
 
-    console.log('adPost start', obj)
+    console.log('addPost start. obj:', obj);
 
     Posts.insert({
       author: {
