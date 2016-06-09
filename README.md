@@ -69,8 +69,8 @@ $ meteor add ian:accounts-ui-bootstrap-3  // ui for accoutns
 Homework (Jun 9, 2016)
 
 * [x] Router
+* [x] Authentication
 * [ ] Gravata
-* [ ] Authentication
 
 
 

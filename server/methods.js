@@ -4,10 +4,15 @@ Meteor.methods({
     console.log('addPost start. obj:', obj);
 
     Posts.insert({
-      author: obj.author,
+      author: {
+        _id: this.userId,
+        name: Meteor.user().username,
+        profileImageUrl: Gravatar.imageUrl(Meteor.user().emails[0].address,
+            {d: 'retro'})
+      },
       message: obj.message,
       pageId: obj.pageId,
-      createdAt: Date.now(),
+      createdAt: Date.now()
     });
   },
 

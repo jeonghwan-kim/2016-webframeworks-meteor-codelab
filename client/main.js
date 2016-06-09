@@ -17,10 +17,6 @@ Template.main.events({
     console.log('Template.main.events.submit started');
 
     Meteor.call('addPost', {
-      author: {
-        name: Meteor.user().username,
-        profileImageUrl: 'http://lorempixel.com/64/64/people/',
-      },
       message: template.find('#post').value,
       pageId: Session.get('pageId'),
     }, function (err, result) {
