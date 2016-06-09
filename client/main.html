@@ -1,6 +1,8 @@
 <template name="main">
   <div class="container">
     <h2>{{pageId}}'s Page</h2>
+
+    {{#if currentUser}}
     <form class="">
       <div class="input-group">
         <input type="text" id="post" class="form-control"
@@ -13,6 +15,8 @@
         </div>
       </div>
     </form>
+    {{/if}}
+
     {{>post}}
   </div>
 </template>

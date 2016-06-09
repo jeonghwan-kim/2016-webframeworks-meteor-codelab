@@ -65,12 +65,21 @@ $ meteor add accounts-password            // email, passowrd authentication
 $ meteor add ian:accounts-ui-bootstrap-3  // ui for accoutns
 ```
 
+Check login user
+
+```
+$ meteor add check
+```
+
+
+
 
 Homework (Jun 9, 2016)
 
 * [x] Router
 * [x] Authentication
-* [ ] Gravata
+* [x] Gravata
+* [ ] Check login user
 
 
 

@@ -1,6 +1,8 @@
 Meteor.methods({
   addPost: function (obj) {
-
+    
+    check(this.userId, String)
+    
     console.log('addPost start. obj:', obj);
 
     Posts.insert({
